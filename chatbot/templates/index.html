@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Therapeutic Support Chat</h1>
+            <p>I'm here to listen and support you. While I can offer guidance, please remember I'm not a replacement for professional help.</p>
+        </div>
+        <div id="chat-box" class="chat-box">
+            <div class="message bot-message">
+                Hello, I'm here to support you. How are you feeling today?
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Share your thoughts..." autocomplete="off">
+            <button id="send-btn">Send</button>
+        </div>
+        <div class="crisis-resources">
+            <p>Crisis Resources: Call 988 for immediate support (US) | Emergency: 911</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
