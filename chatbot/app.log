@@ -1,0 +1,174 @@
+2024-11-12 14:42:10,976 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 14:42:10,976 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 14:42:20,918 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:42:20] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-12 14:42:20,921 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:42:20] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2024-11-12 14:42:20,947 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:42:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-12 14:56:49,724 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:56:49] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2024-11-12 14:56:50,782 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:56:50] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2024-11-12 14:57:01,380 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 14:57:01,380 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 14:57:11,342 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:11] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-12 14:57:11,349 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:11] "GET /login HTTP/1.1" 200 -
+2024-11-12 14:57:11,361 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:11] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-12 14:57:14,315 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:14] "GET /register HTTP/1.1" 200 -
+2024-11-12 14:57:14,328 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:57:52,761 - __main__ - ERROR - Registration error: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6733b30a86e62cce3520c3cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-12 14:57:52,762 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:52] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 14:57:55,287 - __main__ - ERROR - Registration error: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6733b30a86e62cce3520c3cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-12 14:57:55,287 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:55] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 14:57:56,299 - __main__ - ERROR - Registration error: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6733b30a86e62cce3520c3cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-12 14:57:56,299 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:56] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 14:57:57,308 - __main__ - ERROR - Registration error: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6733b30a86e62cce3520c3cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-12 14:57:57,309 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:57:57] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 14:58:41,164 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:58:41] "GET /register HTTP/1.1" 200 -
+2024-11-12 14:58:41,176 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:58:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:58:42,027 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:58:42] "GET /register HTTP/1.1" 200 -
+2024-11-12 14:58:42,040 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:58:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:59:24,106 - __main__ - ERROR - Registration error: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6733b30a86e62cce3520c3cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-12 14:59:24,108 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:59:24] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 14:59:25,616 - __main__ - ERROR - Registration error: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6733b30a86e62cce3520c3cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-12 14:59:25,618 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:59:25] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 14:59:29,160 - __main__ - ERROR - Registration error: localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6733b30a86e62cce3520c3cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-11-12 14:59:29,161 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 14:59:29] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 15:02:08,252 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:02:08,253 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:02:17,863 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:17] "GET /register HTTP/1.1" 200 -
+2024-11-12 15:02:19,496 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:19] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-12 15:02:19,500 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:19] "GET /login HTTP/1.1" 200 -
+2024-11-12 15:02:19,544 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 15:02:20,018 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 15:02:21,823 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:21] "GET /register HTTP/1.1" 200 -
+2024-11-12 15:02:21,839 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 15:02:28,128 - __main__ - ERROR - Registration error: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2024-11-12 15:02:28,128 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:02:28] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-11-12 15:06:58,110 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 15:06:58,111 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 15:07:07,733 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:07] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-12 15:07:07,743 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:07] "GET /login HTTP/1.1" 200 -
+2024-11-12 15:07:07,768 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 15:07:09,316 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:09] "GET /register HTTP/1.1" 200 -
+2024-11-12 15:07:09,327 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 15:07:14,230 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:14] "POST /register HTTP/1.1" 200 -
+2024-11-12 15:07:14,243 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:14] "GET / HTTP/1.1" 200 -
+2024-11-12 15:07:14,252 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-12 15:07:14,255 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-12 15:07:14,257 - __main__ - ERROR - History retrieval error: Object of type Cursor is not JSON serializable
+2024-11-12 15:07:14,258 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:07:14] "[35m[1mGET /history HTTP/1.1[0m" 500 -
+2024-11-12 15:08:16,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-12 15:08:16,724 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-12 15:08:17,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-12 15:08:17,852 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:08:17] "POST /chat HTTP/1.1" 200 -
+2024-11-12 15:16:04,376 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:16:04] "GET / HTTP/1.1" 200 -
+2024-11-12 15:16:04,389 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:16:04] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-12 15:16:04,390 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:16:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-12 15:16:04,394 - __main__ - ERROR - History retrieval error: Object of type Cursor is not JSON serializable
+2024-11-12 15:16:04,394 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 15:16:04] "[35m[1mGET /history HTTP/1.1[0m" 500 -
+2024-11-12 23:51:46,868 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 23:51:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-13 00:14:05,784 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:05] "GET / HTTP/1.1" 200 -
+2024-11-13 00:14:05,796 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:05] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-13 00:14:05,796 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-13 00:14:05,798 - __main__ - ERROR - History retrieval error: Object of type Cursor is not JSON serializable
+2024-11-13 00:14:05,799 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:05] "[35m[1mGET /history HTTP/1.1[0m" 500 -
+2024-11-13 00:14:06,866 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:06] "GET / HTTP/1.1" 200 -
+2024-11-13 00:14:06,880 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:14:06,881 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-13 00:14:06,884 - __main__ - ERROR - History retrieval error: Object of type Cursor is not JSON serializable
+2024-11-13 00:14:06,885 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:06] "[35m[1mGET /history HTTP/1.1[0m" 500 -
+2024-11-13 00:14:25,774 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 00:14:25,774 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 00:14:27,990 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:27] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 00:14:28,007 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:28] "GET /login HTTP/1.1" 200 -
+2024-11-13 00:14:28,024 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:14:36,048 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:14:36] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 00:16:58,416 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 00:16:58,416 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 00:17:08,135 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:17:08] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 00:17:08,147 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:17:08] "GET /login HTTP/1.1" 200 -
+2024-11-13 00:17:08,157 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:17:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:17:17,242 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:17:17] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 00:19:16,498 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:19:16] "GET /register HTTP/1.1" 200 -
+2024-11-13 00:19:16,513 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:19:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:19:22,646 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:19:22] "POST /register HTTP/1.1" 200 -
+2024-11-13 00:19:22,658 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:19:22] "GET / HTTP/1.1" 200 -
+2024-11-13 00:19:22,669 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:19:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:22:00,867 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:22:00] "GET / HTTP/1.1" 200 -
+2024-11-13 00:22:00,877 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:22:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:22:01,786 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:22:01] "GET / HTTP/1.1" 200 -
+2024-11-13 00:22:01,801 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:22:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:25:13,964 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:25:13] "GET / HTTP/1.1" 200 -
+2024-11-13 00:25:13,977 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:25:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:26:42,573 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 00:26:42,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 00:31:50,403 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:31:50] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 00:31:50,413 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:31:50] "GET /login HTTP/1.1" 200 -
+2024-11-13 00:31:50,421 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:31:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:31:58,250 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:31:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 00:32:02,556 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:32:02] "GET /register HTTP/1.1" 200 -
+2024-11-13 00:32:02,571 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:32:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:32:12,640 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:32:12] "POST /register HTTP/1.1" 200 -
+2024-11-13 00:32:12,652 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:32:12] "GET / HTTP/1.1" 200 -
+2024-11-13 00:32:12,669 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:32:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:34:20,095 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:34:20] "GET / HTTP/1.1" 200 -
+2024-11-13 00:34:20,102 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:34:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:34:21,510 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:34:21] "GET / HTTP/1.1" 200 -
+2024-11-13 00:34:21,525 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:34:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:36:07,326 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:36:07] "GET / HTTP/1.1" 200 -
+2024-11-13 00:36:07,337 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:36:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:39:46,261 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:39:46] "GET / HTTP/1.1" 200 -
+2024-11-13 00:39:46,268 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:39:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:40:04,002 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 00:40:04,003 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 00:40:12,425 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:12] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 00:40:12,436 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:12] "GET /login HTTP/1.1" 200 -
+2024-11-13 00:40:12,448 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:40:16,014 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:16] "GET /register HTTP/1.1" 200 -
+2024-11-13 00:40:16,026 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:40:21,909 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:21] "POST /register HTTP/1.1" 200 -
+2024-11-13 00:40:21,920 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:21] "GET / HTTP/1.1" 200 -
+2024-11-13 00:40:21,931 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:40:57,223 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:40:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:43:25,148 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 00:43:25,148 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 00:43:29,887 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:29] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 00:43:29,893 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:29] "GET /login HTTP/1.1" 200 -
+2024-11-13 00:43:29,911 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:43:33,196 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:33] "GET /register HTTP/1.1" 200 -
+2024-11-13 00:43:33,212 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:43:40,809 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:40] "POST /register HTTP/1.1" 200 -
+2024-11-13 00:43:40,820 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:40] "GET / HTTP/1.1" 200 -
+2024-11-13 00:43:40,829 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:43:58,383 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:58] "GET / HTTP/1.1" 200 -
+2024-11-13 00:43:58,393 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:43:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:44:05,986 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 00:44:05,986 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 00:44:07,563 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:07] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 00:44:07,569 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:07] "GET /login HTTP/1.1" 200 -
+2024-11-13 00:44:07,581 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:44:12,882 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:12] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 00:44:18,491 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:18] "GET /register HTTP/1.1" 200 -
+2024-11-13 00:44:18,508 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 00:44:30,862 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:30] "POST /register HTTP/1.1" 200 -
+2024-11-13 00:44:30,873 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:30] "GET / HTTP/1.1" 200 -
+2024-11-13 00:44:30,882 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 00:44:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 12:28:10,538 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 12:28:10,539 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 12:28:25,894 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:25] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 12:28:25,904 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:25] "GET /login HTTP/1.1" 200 -
+2024-11-13 12:28:25,922 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 12:28:32,523 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:32] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 12:28:34,782 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:34] "GET /register HTTP/1.1" 200 -
+2024-11-13 12:28:34,795 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 12:28:39,624 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:39] "POST /register HTTP/1.1" 200 -
+2024-11-13 12:28:39,644 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:39] "GET / HTTP/1.1" 200 -
+2024-11-13 12:28:39,662 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

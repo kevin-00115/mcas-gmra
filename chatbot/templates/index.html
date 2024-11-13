@@ -9,8 +9,19 @@
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            <h1>Therapeutic Support Chat</h1>
-            <p>I'm here to listen and support you. While I can offer guidance, please remember I'm not a replacement for professional help.</p>
+            <div class="header-content">
+                <div class="header-left">
+                    <h1>Therapeutic Support Chat</h1>
+                    <p>I'm here to listen and support you. While I can offer guidance, please remember I'm not a replacement for professional help.</p>
+                </div>
+                <div class="header-right">
+                    <div class="user-info">
+                        <span class="username">{{ username }}</span>
+                        <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <button id="new-conversation-btn" class="new-conversation-btn">New Conversation</button>
         </div>
         <div id="chat-box" class="chat-box">
             <div class="message bot-message">
@@ -24,7 +35,4 @@
         <div class="crisis-resources">
             <p>Crisis Resources: Call 988 for immediate support (US) | Emergency: 911</p>
         </div>
-    </div>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
-</body>
-</html>
+    </div

@@ -1,0 +1,58 @@
+2024-11-12 14:28:09,737 - document_processor - ERROR - Error initializing Pinecone: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'content-type': 'text/plain; charset=utf-8', 'access-control-allow-origin': '*', 'vary': 'origin,access-control-request-method,access-control-request-headers', 'access-control-expose-headers': '*', 'x-pinecone-api-version': '2024-07', 'X-Cloud-Trace-Context': '8eed40e76e6c8513c6c730cc5da5cafd', 'Date': 'Tue, 12 Nov 2024 19:28:09 GMT', 'Server': 'Google Frontend', 'Content-Length': '125', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: {"error":{"code":"INVALID_ARGUMENT","message":"Name must consist of lower case alphanumeric characters or '-'"},"status":400}
+
+2024-11-12 14:29:07,877 - document_processor - ERROR - Error initializing Pinecone: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'content-type': 'text/plain; charset=utf-8', 'access-control-allow-origin': '*', 'vary': 'origin,access-control-request-method,access-control-request-headers', 'access-control-expose-headers': '*', 'x-pinecone-api-version': '2024-07', 'X-Cloud-Trace-Context': '8924bbe7b5df7266b64a1f9834755bee', 'Date': 'Tue, 12 Nov 2024 19:29:07 GMT', 'Server': 'Google Frontend', 'Content-Length': '200', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: {"error":{"code":"INVALID_ARGUMENT","message":"Bad request: Your free plan does not support indexes in the us-west-2 region of aws. To create indexes in this region, upgrade your plan."},"status":400}
+
+2024-11-12 14:31:02,259 - document_processor - INFO - Pinecone initialized successfully
+2024-11-12 14:31:02,484 - document_processor - ERROR - Error getting embedding: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-12 14:31:02,484 - document_processor - ERROR - Error loading documents: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-11-12 14:32:23,152 - document_processor - INFO - Pinecone initialized successfully
+2024-11-12 14:32:25,823 - document_processor - INFO - Successfully loaded 2 chunks into Pinecone
+2024-11-12 14:34:47,268 - document_processor - INFO - Pinecone initialized successfully
+2024-11-12 14:34:47,389 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-12 14:42:10,783 - document_processor - INFO - Pinecone initialized successfully
+2024-11-12 14:42:10,965 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-12 14:57:01,182 - document_processor - INFO - Pinecone initialized successfully
+2024-11-12 14:57:01,368 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-12 15:02:08,068 - document_processor - INFO - Pinecone initialized successfully
+2024-11-12 15:02:08,239 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-12 15:06:57,947 - document_processor - INFO - Pinecone initialized successfully
+2024-11-12 15:06:58,098 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-12 15:08:16,724 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 00:14:25,210 - document_processor - INFO - Pinecone initialized successfully
+2024-11-13 00:14:25,767 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-13 00:16:58,115 - document_processor - INFO - Pinecone initialized successfully
+2024-11-13 00:16:58,405 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-13 00:26:42,185 - document_processor - INFO - Pinecone initialized successfully
+2024-11-13 00:26:42,563 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-13 00:40:03,571 - document_processor - INFO - Pinecone initialized successfully
+2024-11-13 00:40:03,991 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-13 00:43:24,804 - document_processor - INFO - Pinecone initialized successfully
+2024-11-13 00:43:25,141 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-13 00:44:05,790 - document_processor - INFO - Pinecone initialized successfully
+2024-11-13 00:44:05,983 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-13 12:28:10,229 - document_processor - INFO - Pinecone initialized successfully
+2024-11-13 12:28:10,524 - document_processor - INFO - Documents already loaded in Pinecone
