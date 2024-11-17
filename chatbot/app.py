@@ -36,7 +36,7 @@ else:
     # Save it to .env file if it doesn't exist
     if not os.path.exists('.env'):
         with open('.env', 'a') as f:
-            f.write(f'\nFLASSK_SECRET_KEY="{generated_key}"')
+            f.write(f'\nFLASK_SECRET_KEY="{generated_key}"')
 
 # Verify directories exist
 base_dir = verify_directories()
@@ -45,6 +45,14 @@ base_dir = verify_directories()
 db = Database()
 doc_processor = DocumentProcessor()
 
+@app.before_request
+def verify_documents_loaded():
+    """Verify that documents are loaded into Pinecone index"""
+    if not hasattr(app, 'documents_loaded'):
+        print("Documents not loaded. Loading documents...")
+        doc_processor.load_documents() 
+        print("Documents loaded successfully.")
+        app.documents_loaded = True        
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
@@ -110,7 +118,7 @@ def register():
 @login_required
 def logout():
     session.pop('username', None)
-    return jsonify({"status": "success"})
+    return redirect(url_for('login'))
 
 @app.route('/')
 def home():
@@ -119,7 +127,7 @@ def home():
     return redirect(url_for('login'))
 
 @app.route('/chat', methods=['POST'])
-@login_required
+#@login_required
 def chat():
     try:
         user_input = request.json.get("message")
@@ -141,7 +149,7 @@ def chat():
         db.store_message(username, user_input, response)
         
         return jsonify({
-            "response": response,
+            "reply": response,
             "context": context  # Optional: Include context for debugging
         })
     except Exception as e:
@@ -184,7 +192,7 @@ def get_completion(prompt, context, model="gpt-4-turbo-preview"):
         return "I apologize, but I'm having trouble generating a response. Please try again."
 
 @app.route('/history')
-@login_required
+#@login_required
 def get_history():
     try:
         username = session['username']
@@ -195,7 +203,7 @@ def get_history():
         return jsonify({"error": "Failed to retrieve history"}), 500
 
 @app.route('/new_conversation', methods=['POST'])
-@login_required
+#@login_required
 def new_conversation():
     try:
         username = session['username']

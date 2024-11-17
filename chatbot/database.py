@@ -1,6 +1,21 @@
 from pymongo import MongoClient
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
+import logging
+
+logger = logging.getLogger('chat_history')
+logger.setLevel(logging.INFO)
+
+# create a file handler
+file_handler = logging.FileHandler('chat_history.log')
+file_handler.setLevel(logging.INFO)
+
+# create a logging format and add to handler
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+# add the handler to the logger
+logger.addHandler(file_handler)
 
 class Database:
     def __init__(self):
@@ -33,9 +48,11 @@ class Database:
             "timestamp": datetime.now()
         }
         self.chats.insert_one(chat)
+        # Log the message
+        logger.info(f"Stored message {message} and response {response} in chat history")
     
-    def get_conversation_history(self, conversation_id):
-        return self.chats.find({"conversation_id": conversation_id})
+    def get_conversation_history(self, username):
+        return list(self.chats.find({"sender": username}))
 
     def store_document(self, document):
         return self.documents.insert_one({'document': document})

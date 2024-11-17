@@ -7,6 +7,7 @@ from datetime import datetime
 import json
 import logging
 from dotenv import load_dotenv
+from langchain_community.document_loaders import PyPDFLoader
 
 load_dotenv()
 
@@ -76,19 +77,27 @@ class DocumentProcessor:
             self.logger.error(f"Error getting embedding: {e}")
             raise
 
-    def read_file_content(self, file_path: str) -> str:
-        """Read content from text file"""
+    def read_file_content(self, file_path):
+        """
+        Reads the content of a PDF file using PyPDFLoader.
+        """
         try:
-            if not os.path.exists(file_path):
-                self.logger.error(f"File not found: {file_path}")
-                return ""
-                
-            with open(file_path, "r", encoding="utf-8") as file:
-                return file.read()
+            if file_path.endswith('.pdf'):
+                loader = PyPDFLoader(file_path)
+                documents = loader.load()
+                # Combine all page contents into a single string
+                content = " ".join([doc.page_content for doc in documents])
+                return content
+            elif file_path.endswith('.txt'):
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    return f.read()
+            else:
+                self.logger.error(f"Unsupported file format: {file_path}")
+                return None
         except Exception as e:
-            self.logger.error(f"Error reading file {file_path}: {e}")
-            return ""
-
+            self.logger.error(f"Error reading file {file_path}: {str(e)}")
+            return None
+        
     def split_text_into_chunks(self, text: str, max_chunk_size: int = 1000) -> List[str]:
         """Split text into smaller chunks"""
         chunks = []
@@ -123,36 +132,41 @@ class DocumentProcessor:
                 return
 
             documents_dir = 'documents'
-            file_path = os.path.join(documents_dir, 'therapeutic_guidelines.txt')
+            for filename in os.listdir(documents_dir):
+                file_path = os.path.join(documents_dir, filename)
+                if not (filename.endswith('.txt') or filename.endswith('.pdf')):
+                    continue
 
-            # Read and process the guidelines
-            content = self.read_file_content(file_path)
-            if not content:
-                raise ValueError(f"No content found in {file_path}")
+                # Read and process the document
+                content = self.read_file_content(file_path)
+                if not content:
+                    self.logger.error(f"No content found in {file_path}")
+                    continue
 
-            # Split into chunks
-            chunks = self.split_text_into_chunks(content)
-            
-            # Process chunks in batches
-            batch_size = 50
-            for i in range(0, len(chunks), batch_size):
-                batch = chunks[i:i + batch_size]
+                # Split into chunks
+                chunks = self.split_text_into_chunks(content)
                 
-                # Generate IDs and get embeddings
-                ids = [f"chunk-{j}" for j in range(i, i + len(batch))]
-                embeddings = [self.get_embedding(text) for text in batch]
+                # Process chunks in batches
+                batch_size = 50
+                for i in range(0, len(chunks), batch_size):
+                    batch = chunks[i:i + batch_size]
+                    
+                    # Generate IDs and get embeddings
+                    ids = [f"{filename}-chunk-{j}" for j in range(i, i + len(batch))]
+                    embeddings = [self.get_embedding(text) for text in batch]
+                    
+                    # Create metadata
+                    metadata = [{'text': text, 'source': filename} for text in batch]
+                    
+                    # Create vectors
+                    vectors = list(zip(ids, embeddings, metadata))
+                    
+                    # Upsert to Pinecone
+                    self.index.upsert(vectors=vectors)
                 
-                # Create metadata
-                metadata = [{'text': text, 'source': 'therapeutic-guidelines.txt'} 
-                          for text in batch]
-                
-                # Create vectors
-                vectors = list(zip(ids, embeddings, metadata))
-                
-                # Upsert to Pinecone
-                self.index.upsert(vectors=vectors)
+                self.logger.info(f"Loaded {filename} into Pinecone")
 
-            self.logger.info(f"Successfully loaded {len(chunks)} chunks into Pinecone")
+            self.logger.info(f"Successfully loaded documents into Pinecone")
 
         except Exception as e:
             self.logger.error(f"Error loading documents: {e}")
@@ -171,17 +185,19 @@ class DocumentProcessor:
                 include_metadata=True
             )
 
-            # Extract relevant texts
+            # Extract relevant texts and sources
             relevant_texts = [match.metadata['text'] for match in search_results.matches]
-
+            sources = [match.metadata['source'] for match in search_results.matches]
+            
+            # log the query and relevant texts
+            self.logger.info(f"Query: {query}, Relevant texts: {relevant_texts}, Sources: {sources}")
             # Combine with chat history if available
             if chat_history:
+                if not isinstance(chat_history, list):
+                    chat_history = list(chat_history)
                 recent_history = chat_history[-self.context_window:]
-                history_context = "\n".join([
-                    f"User: {msg['message']}\nAssistant: {msg['response']}"
-                    for msg in recent_history
-                ])
-                return f"{history_context}\n\nRelevant guidelines:\n{' '.join(relevant_texts)}"
+                history_context = " ".join([msg['message'] + " " + msg['response'] for msg in recent_history])
+                return f"{history_context}\n\nRelevant context:\n\n" + "\n\n".join(relevant_texts)
 
             return "\n\n".join(relevant_texts)
 
