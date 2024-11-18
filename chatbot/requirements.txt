@@ -1,0 +1,11 @@
+Flask
+openai
+python-dotenv
+pymongo
+werkzeug
+pinecone-client
+tweepy
+pandas
+textblob
+ipykernel
+matplotlib
