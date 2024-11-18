@@ -1,1 +1,0 @@
-start Mongodb before ap.py by running brew services start mongodb-community
