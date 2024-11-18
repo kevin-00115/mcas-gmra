@@ -172,3 +172,668 @@
 2024-11-13 12:28:39,624 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:39] "POST /register HTTP/1.1" 200 -
 2024-11-13 12:28:39,644 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:39] "GET / HTTP/1.1" 200 -
 2024-11-13 12:28:39,662 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 12:28:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 19:13:59,962 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 19:13:59,962 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 19:14:06,366 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:06] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 19:14:06,378 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:06] "GET /login HTTP/1.1" 200 -
+2024-11-13 19:14:06,387 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 19:14:06,641 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-13 19:14:10,863 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:10] "GET /register HTTP/1.1" 200 -
+2024-11-13 19:14:10,877 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 19:14:15,383 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:15] "POST /register HTTP/1.1" 200 -
+2024-11-13 19:14:15,393 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:15] "GET / HTTP/1.1" 200 -
+2024-11-13 19:14:15,399 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 19:14:20,692 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 19:14:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:01:11,949 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:11] "GET / HTTP/1.1" 200 -
+2024-11-13 21:01:11,962 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:01:27,678 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:01:27,678 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:01:29,681 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:29] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:01:29,692 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:29] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:01:29,706 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:01:32,304 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:32] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:01:32,316 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:01:41,111 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:41] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:01:41,123 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:41] "GET / HTTP/1.1" 200 -
+2024-11-13 21:01:41,132 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:01:49,488 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:49] "GET /logout HTTP/1.1" 200 -
+2024-11-13 21:01:51,358 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:51] "[31m[1mGET /logout HTTP/1.1[0m" 401 -
+2024-11-13 21:01:56,282 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:56] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:01:56,288 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:56] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:01:56,300 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:01:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:02:02,727 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:02:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 21:02:05,019 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:02:05] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:02:05,036 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:02:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:02:12,747 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:02:12] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:02:12,754 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:02:12] "GET / HTTP/1.1" 200 -
+2024-11-13 21:02:12,764 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:02:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:06:00,203 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:06:00] "GET / HTTP/1.1" 200 -
+2024-11-13 21:06:00,213 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:06:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:06:01,121 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:06:01] "GET / HTTP/1.1" 200 -
+2024-11-13 21:06:01,132 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:06:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:06:33,853 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:06:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:08:39,881 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:08:39] "[31m[1mGET /chat HTTP/1.1[0m" 405 -
+2024-11-13 21:08:51,573 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:08:51] "GET /logout HTTP/1.1" 200 -
+2024-11-13 21:08:57,217 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:08:57] "[31m[1mGET /chat HTTP/1.1[0m" 405 -
+2024-11-13 21:09:33,081 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:09:33] "[33mGET /chat%20hello HTTP/1.1[0m" 404 -
+2024-11-13 21:13:08,261 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:13:08] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:13:08,266 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:13:08] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:13:08,280 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:13:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:14:26,160 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:26] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:14:26,180 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:14:33,704 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:33] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:14:33,715 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:33] "GET / HTTP/1.1" 200 -
+2024-11-13 21:14:33,730 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:14:47,289 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:47] "GET /logout HTTP/1.1" 200 -
+2024-11-13 21:14:50,865 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:50] "[31m[1mGET /logout HTTP/1.1[0m" 401 -
+2024-11-13 21:14:51,891 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:51] "[31m[1mGET /logout HTTP/1.1[0m" 401 -
+2024-11-13 21:14:54,724 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:54] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:14:54,728 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:54] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:14:54,741 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:14:59,415 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:14:59] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 21:15:04,090 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:15:04] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:15:04,113 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:15:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:15:08,934 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:15:08] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:15:08,945 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:15:08] "GET / HTTP/1.1" 200 -
+2024-11-13 21:15:08,957 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:15:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:28:16,374 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:16] "GET / HTTP/1.1" 200 -
+2024-11-13 21:28:16,386 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:28:32,950 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:28:32,950 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:28:37,777 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:37] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:28:37,789 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:37] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:28:37,808 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:28:40,528 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:40] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:28:40,543 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:28:47,157 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:47] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:28:47,165 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:47] "GET / HTTP/1.1" 200 -
+2024-11-13 21:28:47,172 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:28:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:30:54,892 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:30:54,892 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:31:01,001 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:01] "[31m[1mGET /logout HTTP/1.1[0m" 401 -
+2024-11-13 21:31:02,183 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:02] "[31m[1mGET /logout HTTP/1.1[0m" 401 -
+2024-11-13 21:31:07,663 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:31:09,558 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:09] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:31:09,573 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:09] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:31:09,584 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:31:11,056 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:11] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:31:11,068 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:31:16,712 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:16] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:31:16,725 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:16] "GET / HTTP/1.1" 200 -
+2024-11-13 21:31:16,735 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:31:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:33:01,717 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:33:01] "[31m[1mPOST /chat HTTP/1.1[0m" 401 -
+2024-11-13 21:33:19,032 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:33:19] "[31m[1mPOST /chat HTTP/1.1[0m" 401 -
+2024-11-13 21:35:06,501 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:06] "[31m[1mPOST /chat HTTP/1.1[0m" 401 -
+2024-11-13 21:35:30,877 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:30] "GET / HTTP/1.1" 200 -
+2024-11-13 21:35:30,890 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:35:31,598 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:31] "GET / HTTP/1.1" 200 -
+2024-11-13 21:35:31,612 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:35:37,713 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:37] "GET /logout HTTP/1.1" 200 -
+2024-11-13 21:35:51,122 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:51] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:35:51,127 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:51] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:35:51,141 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:35:56,565 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:56] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:35:56,581 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:35:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:36:04,487 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:36:04] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:36:04,494 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:36:04] "GET / HTTP/1.1" 200 -
+2024-11-13 21:36:04,503 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:36:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:36:12,335 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:36:12] "[31m[1mPOST /chat HTTP/1.1[0m" 401 -
+2024-11-13 21:36:42,891 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:36:42] "[31m[1mPOST /chat HTTP/1.1[0m" 401 -
+2024-11-13 21:36:53,111 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:36:53] "GET /logout HTTP/1.1" 200 -
+2024-11-13 21:37:05,551 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:37:05,552 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:38:01,788 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:38:01,788 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:38:25,167 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:38:25,167 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:42:26,978 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:26] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:42:26,983 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:26] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:42:26,994 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:42:30,753 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:30] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:42:30,762 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:42:42,105 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:42:42,105 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:42:48,171 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:48] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:42:48,183 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:48] "GET / HTTP/1.1" 200 -
+2024-11-13 21:42:48,192 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:42:59,286 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:42:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:44:40,182 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:44:40] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-13 21:45:12,706 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:12] "GET / HTTP/1.1" 200 -
+2024-11-13 21:45:12,715 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:45:20,341 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 21:45:20,342 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 21:45:21,254 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:21] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 21:45:21,268 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:21] "GET /login HTTP/1.1" 200 -
+2024-11-13 21:45:21,278 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:45:22,653 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:22] "GET /register HTTP/1.1" 200 -
+2024-11-13 21:45:22,665 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:45:55,857 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:45:55] "[33mPOST /register-H HTTP/1.1[0m" 404 -
+2024-11-13 21:46:46,800 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:46:46] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:46:57,244 - __main__ - ERROR - Chat error: 'username'
+2024-11-13 21:46:57,244 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:46:57] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2024-11-13 21:47:05,233 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:47:05] "POST /login HTTP/1.1" 200 -
+2024-11-13 21:47:12,070 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 21:47:13,070 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 21:47:14,112 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 21:47:14,123 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:47:14] "POST /chat HTTP/1.1" 200 -
+2024-11-13 21:47:27,734 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:47:27] "POST /register HTTP/1.1" 200 -
+2024-11-13 21:47:27,745 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:47:27] "GET / HTTP/1.1" 200 -
+2024-11-13 21:47:27,753 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:47:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:49:47,344 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:49:47] "GET / HTTP/1.1" 200 -
+2024-11-13 21:49:47,355 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:49:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:49:48,224 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:49:48] "GET / HTTP/1.1" 200 -
+2024-11-13 21:49:48,236 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:49:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:49:49,104 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:49:49] "GET / HTTP/1.1" 200 -
+2024-11-13 21:49:49,112 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:49:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 21:50:03,191 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:50:03] "GET / HTTP/1.1" 200 -
+2024-11-13 21:50:03,199 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 21:50:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:06:39,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 22:06:39,873 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 22:06:41,839 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 22:06:41,844 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:06:41] "POST /chat HTTP/1.1" 200 -
+2024-11-13 22:07:07,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 22:07:07,635 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 22:07:09,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 22:07:09,797 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:07:09] "POST /chat HTTP/1.1" 200 -
+2024-11-13 22:07:39,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 22:07:39,236 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 22:07:41,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 22:07:41,192 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:07:41] "POST /chat HTTP/1.1" 200 -
+2024-11-13 22:08:05,201 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 22:08:05,312 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 22:08:10,106 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 22:08:10,111 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:08:10] "POST /chat HTTP/1.1" 200 -
+2024-11-13 22:13:34,888 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:13:34] "GET / HTTP/1.1" 200 -
+2024-11-13 22:13:34,898 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:13:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:16:43,908 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:16:43] "GET / HTTP/1.1" 200 -
+2024-11-13 22:16:43,920 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:16:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:17:01,050 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-13 22:17:01,050 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-13 22:17:10,466 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:10] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-13 22:17:10,476 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:10] "GET /login HTTP/1.1" 200 -
+2024-11-13 22:17:10,486 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:17:12,847 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:12] "GET /register HTTP/1.1" 200 -
+2024-11-13 22:17:12,859 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:17:18,099 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:18] "POST /register HTTP/1.1" 200 -
+2024-11-13 22:17:18,111 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:18] "GET / HTTP/1.1" 200 -
+2024-11-13 22:17:18,123 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:17:18,123 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:18] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-13 22:17:25,500 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:25] "[33mPOST /send_message HTTP/1.1[0m" 404 -
+2024-11-13 22:17:37,139 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:17:37] "[33mPOST /send_message HTTP/1.1[0m" 404 -
+2024-11-13 22:19:44,545 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:19:44] "GET / HTTP/1.1" 200 -
+2024-11-13 22:19:44,553 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:19:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:19:44,553 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:19:44] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-13 22:19:49,427 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:19:49] "[33mPOST /send_message HTTP/1.1[0m" 404 -
+2024-11-13 22:27:52,573 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:27:52] "GET / HTTP/1.1" 200 -
+2024-11-13 22:27:52,584 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:27:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 22:27:52,587 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:27:52] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-13 22:27:57,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 22:27:57,661 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 22:27:58,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 22:27:58,705 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:27:58] "POST /chat HTTP/1.1" 200 -
+2024-11-13 22:30:00,572 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 22:30:01,116 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 22:30:02,045 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 22:30:02,049 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 22:30:02] "POST /chat HTTP/1.1" 200 -
+2024-11-13 23:31:02,985 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 23:31:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-13 23:31:09,801 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 23:31:10,258 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 23:31:11,184 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 23:31:11,190 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 23:31:11] "POST /chat HTTP/1.1" 200 -
+2024-11-13 23:31:22,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-13 23:31:22,628 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-13 23:31:23,502 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 23:31:23,507 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2024 23:31:23] "POST /chat HTTP/1.1" 200 -
+2024-11-14 12:59:10,528 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 12:59:10,529 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-14 12:59:17,263 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:17] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-14 12:59:17,287 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:17] "GET /login HTTP/1.1" 200 -
+2024-11-14 12:59:17,345 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:17] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-14 12:59:18,136 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-14 12:59:20,686 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:20] "GET /register HTTP/1.1" 200 -
+2024-11-14 12:59:20,699 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 12:59:24,852 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:24] "POST /register HTTP/1.1" 200 -
+2024-11-14 12:59:24,867 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:24] "GET / HTTP/1.1" 200 -
+2024-11-14 12:59:24,880 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 12:59:24,886 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:24] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-14 12:59:32,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 12:59:32,785 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 12:59:33,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:59:33,702 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:33] "POST /chat HTTP/1.1" 200 -
+2024-11-14 12:59:45,119 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 12:59:45,161 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 12:59:45,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 12:59:45,901 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 12:59:46,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:59:46,549 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:46] "POST /chat HTTP/1.1" 200 -
+2024-11-14 12:59:46,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 12:59:46,813 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 12:59:48,161 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:59:48,165 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:48] "POST /chat HTTP/1.1" 200 -
+2024-11-14 12:59:48,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 12:59:48,370 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 12:59:49,125 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:59:49,129 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:49] "POST /chat HTTP/1.1" 200 -
+2024-11-14 12:59:49,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 12:59:49,190 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 12:59:50,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:59:50,252 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:50] "POST /chat HTTP/1.1" 200 -
+2024-11-14 12:59:50,657 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:59:50,662 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:50] "POST /chat HTTP/1.1" 200 -
+2024-11-14 12:59:51,516 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 12:59:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 20:13:37,384 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 20:13:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-14 20:14:07,945 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 20:14:07] "GET / HTTP/1.1" 200 -
+2024-11-14 20:14:07,961 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 20:14:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-14 20:14:07,961 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 20:14:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 21:03:51,896 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 21:03:51,896 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-14 21:03:52,133 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:52] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-14 21:03:52,147 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:52] "GET /login HTTP/1.1" 200 -
+2024-11-14 21:03:52,172 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 21:03:54,743 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:54] "GET /register HTTP/1.1" 200 -
+2024-11-14 21:03:54,770 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 21:03:59,264 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:59] "POST /register HTTP/1.1" 200 -
+2024-11-14 21:03:59,275 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:59] "GET / HTTP/1.1" 200 -
+2024-11-14 21:03:59,304 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 21:03:59,310 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:03:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-14 21:04:02,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 21:04:03,120 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 21:04:04,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 21:04:04,247 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:04:04] "POST /chat HTTP/1.1" 200 -
+2024-11-14 21:07:22,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 21:07:24,224 - document_processor - ERROR - Error querying relevant context: Cursor instances do not support negative indices
+2024-11-14 21:07:39,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 21:07:39,243 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:07:39] "POST /chat HTTP/1.1" 200 -
+2024-11-14 21:43:29,045 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 21:43:29,047 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-14 21:43:44,394 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/kevinyang/Documents/Health informatics/chatbot/app.py", line 119, in home
+    return redirect(url_for('login'))
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/helpers.py", line 220, in url_for
+    return current_app.url_for(
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/werkzeug/routing/map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'login'. Did you mean 'get_history' instead?
+2024-11-14 21:43:44,397 - __main__ - ERROR - Internal server error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2024-11-14 21:43:44,398 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:43:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-14 21:43:52,060 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:43:52] "[33mGET /home HTTP/1.1[0m" 404 -
+2024-11-14 21:44:16,750 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 21:44:16,750 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-14 21:44:18,678 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:18] "[33mGET /home HTTP/1.1[0m" 404 -
+2024-11-14 21:44:23,010 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:23] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-14 21:44:23,022 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:23] "GET /login HTTP/1.1" 200 -
+2024-11-14 21:44:23,044 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 21:44:25,474 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:25] "GET /register HTTP/1.1" 200 -
+2024-11-14 21:44:25,500 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 21:44:30,742 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:30] "POST /register HTTP/1.1" 200 -
+2024-11-14 21:44:30,754 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:30] "GET / HTTP/1.1" 200 -
+2024-11-14 21:44:30,782 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-14 21:44:30,786 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:44:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-14 21:45:37,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-14 21:45:51,839 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 21:45:51,849 - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2024 21:45:51] "POST /chat HTTP/1.1" 200 -
+2024-11-15 12:58:32,404 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 12:58:32,404 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 12:58:49,789 - __main__ - ERROR - Chat error: 'username'
+2024-11-15 12:58:49,790 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:58:49] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2024-11-15 12:58:56,122 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:58:56] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-15 12:58:56,132 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:58:56] "GET /login HTTP/1.1" 200 -
+2024-11-15 12:58:56,155 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:58:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 12:58:58,136 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:58:58] "GET /register HTTP/1.1" 200 -
+2024-11-15 12:58:58,172 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:58:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 12:59:06,077 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:59:06] "POST /register HTTP/1.1" 200 -
+2024-11-15 12:59:06,094 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:59:06] "GET / HTTP/1.1" 200 -
+2024-11-15 12:59:06,136 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:59:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 12:59:06,140 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:59:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-15 12:59:18,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 12:59:19,880 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 12:59:19,892 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:59:19] "POST /chat HTTP/1.1" 200 -
+2024-11-15 12:59:29,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 12:59:34,708 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 12:59:34,714 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:59:34] "POST /chat HTTP/1.1" 200 -
+2024-11-15 12:59:54,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 12:59:57,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 12:59:57,933 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 12:59:57] "POST /chat HTTP/1.1" 200 -
+2024-11-15 13:00:33,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 13:00:47,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 13:00:47,218 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:00:47] "POST /chat HTTP/1.1" 200 -
+2024-11-15 13:01:29,115 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 13:01:32,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 13:01:32,941 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:01:32] "POST /chat HTTP/1.1" 200 -
+2024-11-15 13:01:53,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 13:01:55,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 13:01:55,100 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:01:55] "POST /chat HTTP/1.1" 200 -
+2024-11-15 13:02:07,867 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 13:02:12,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 13:02:12,575 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:02:12] "POST /chat HTTP/1.1" 200 -
+2024-11-15 13:02:24,736 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 13:02:27,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 13:02:27,168 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:02:27] "POST /chat HTTP/1.1" 200 -
+2024-11-15 13:15:39,349 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 13:15:39,349 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 13:15:46,964 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:46] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-15 13:15:46,975 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:46] "GET /login HTTP/1.1" 200 -
+2024-11-15 13:15:46,998 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:48,492 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:48] "GET /register HTTP/1.1" 200 -
+2024-11-15 13:15:48,526 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:55,847 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:55] "POST /register HTTP/1.1" 200 -
+2024-11-15 13:15:55,863 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:55] "GET / HTTP/1.1" 200 -
+2024-11-15 13:15:55,927 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:55,927 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:15:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-15 13:17:04,758 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 13:17:04,759 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 13:17:07,335 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:07] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-15 13:17:07,346 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:07] "GET /login HTTP/1.1" 200 -
+2024-11-15 13:17:07,368 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:17:08,645 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:08] "GET /register HTTP/1.1" 200 -
+2024-11-15 13:17:08,687 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:17:13,009 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:13] "POST /register HTTP/1.1" 200 -
+2024-11-15 13:17:13,024 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:13] "GET / HTTP/1.1" 200 -
+2024-11-15 13:17:13,096 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:17:13,097 - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2024 13:17:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-16 11:06:46,135 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 11:06:46,135 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 11:07:28,338 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 878, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 1253, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/kevinyang/Documents/Health informatics/chatbot/app.py", line 51, in verify_documents_loaded
+    if not doc_processor.index.list_documents():
+AttributeError: 'Index' object has no attribute 'list_documents'
+2024-11-16 11:07:28,340 - __main__ - ERROR - Internal server error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2024-11-16 11:07:28,340 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:07:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-16 11:07:29,259 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 878, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/kevinyang/.pyenv/versions/3.9.6/lib/python3.9/site-packages/flask/app.py", line 1253, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/kevinyang/Documents/Health informatics/chatbot/app.py", line 51, in verify_documents_loaded
+    if not doc_processor.index.list_documents():
+AttributeError: 'Index' object has no attribute 'list_documents'
+2024-11-16 11:07:29,261 - __main__ - ERROR - Internal server error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2024-11-16 11:07:29,261 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:07:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-16 11:09:16,716 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 11:09:16,717 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 11:09:27,496 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-16 11:09:27,497 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:27] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-16 11:09:27,510 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:27] "GET /login HTTP/1.1" 200 -
+2024-11-16 11:09:27,533 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:09:29,284 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:29] "GET /register HTTP/1.1" 200 -
+2024-11-16 11:09:29,298 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:09:34,377 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:34] "POST /register HTTP/1.1" 200 -
+2024-11-16 11:09:34,390 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:34] "GET / HTTP/1.1" 200 -
+2024-11-16 11:09:34,401 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:09:34,401 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-16 11:09:38,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:09:38,998 - document_processor - ERROR - Error querying relevant context: 'user_input'
+2024-11-16 11:09:39,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:09:39,662 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:09:39] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:10:27,653 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:10:27,718 - document_processor - ERROR - Error querying relevant context: 'user_input'
+2024-11-16 11:10:39,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:10:39,910 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:10:39] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:17:52,319 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 11:17:52,319 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 11:18:10,292 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-16 11:18:10,294 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:10] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-16 11:18:10,307 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:10] "GET /login HTTP/1.1" 200 -
+2024-11-16 11:18:10,336 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:18:11,530 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:11] "GET /register HTTP/1.1" 200 -
+2024-11-16 11:18:11,540 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:18:16,153 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:16] "POST /register HTTP/1.1" 200 -
+2024-11-16 11:18:16,167 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:16] "GET / HTTP/1.1" 200 -
+2024-11-16 11:18:16,180 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:18:16,185 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-16 11:18:28,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:18:28,853 - document_processor - ERROR - Error querying relevant context: 'reply'
+2024-11-16 11:18:30,978 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:18:30,988 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:18:30] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:22:10,051 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 11:22:10,051 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 11:22:14,220 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-16 11:22:14,221 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:14] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-16 11:22:14,227 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:14] "GET /login HTTP/1.1" 200 -
+2024-11-16 11:22:14,251 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:22:17,129 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:17] "GET /register HTTP/1.1" 200 -
+2024-11-16 11:22:17,145 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:22:23,130 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:23] "POST /register HTTP/1.1" 200 -
+2024-11-16 11:22:23,144 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:23] "GET / HTTP/1.1" 200 -
+2024-11-16 11:22:23,155 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:22:23,157 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-16 11:22:29,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:22:29,368 - document_processor - ERROR - Error querying relevant context: 'reply'
+2024-11-16 11:22:30,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:22:30,202 - chat_history - INFO - Stored message from test in chat history
+2024-11-16 11:22:30,203 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:22:30] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:24:02,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:24:02,795 - document_processor - ERROR - Error querying relevant context: 'reply'
+2024-11-16 11:24:14,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:24:14,399 - chat_history - INFO - Stored message from test in chat history
+2024-11-16 11:24:14,400 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:24:14] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:25:32,185 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 11:25:32,185 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 11:25:33,222 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-16 11:25:33,223 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:33] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-16 11:25:33,227 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:33] "GET /login HTTP/1.1" 200 -
+2024-11-16 11:25:33,243 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:25:34,620 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:34] "GET /register HTTP/1.1" 200 -
+2024-11-16 11:25:34,633 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:25:39,096 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:39] "POST /register HTTP/1.1" 200 -
+2024-11-16 11:25:39,109 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:39] "GET / HTTP/1.1" 200 -
+2024-11-16 11:25:39,121 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 11:25:39,133 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-16 11:25:43,834 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:25:44,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:25:44,897 - chat_history - INFO - Stored message hello and response Hello! How can I assist you today? in chat history
+2024-11-16 11:25:44,898 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:25:44] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:26:01,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:26:11,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:26:11,731 - chat_history - INFO - Stored message what is cbt and response Cognitive Behavioral Therapy (CBT) is a form of psychotherapy that has been extensively researched and is highly effective for treating a variety of mental health issues, including but not limited to depression, anxiety, panic disorders, phobias, and obsessive-compulsive disorder. It's based on the concept that our thoughts, feelings, and behaviors are interconnected, meaning that negative thoughts and patterns can lead to distressing feelings and dysfunctional behaviors.
+
+CBT works by helping individuals identify and challenge their negative thoughts and beliefs (cognitive processes) and change their behavior in response to these thoughts. Through this process, CBT aims to alter patterns of thinking or behavior that are behind people's difficulties, and so change the way they feel.
+
+Key characteristics of CBT include:
+
+- **Structured**: CBT is goal-oriented and follows a structured approach in sessions.
+- **Time-Limited**: Typically, CBT is delivered over a specified period, often between 5 and 20 sessions, depending on the individual's needs and progress.
+- **Problem-Focused and Goal-Oriented**: Therapy is directed at the specific problems experienced by the individual, with clearly defined goals set in collaboration with the therapist.
+- **Active**: Involves active participation both during sessions and outside through homework assignments.
+- **Skills-Based**: Teaches practical strategies and skills for managing negative thought patterns and behaviors.
+
+CBT involves techniques such as:
+
+- **Cognitive Restructuring**: Identifying, challenging, and changing unhelpful thoughts.
+- **Behavioral Activation**: Encouraging activities that are likely to be rewarding or enjoyable.
+- **Exposure Therapy**: Gradually and systematically facing feared situations.
+- **Problem-Solving**: Developing strategies to deal with problems in a more effective way.
+- **Mindfulness**: Focusing on the present moment to reduce rumination and worry.
+
+The effectiveness of CBT has been well-documented for various conditions, offering individuals skills and strategies that can be used throughout their lives to cope with challenges and maintain their mental health. in chat history
+2024-11-16 11:26:11,732 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:26:11] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:26:34,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:26:36,558 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:26:36,562 - chat_history - INFO - Stored message what did I just ask you and response You just asked about CBT, or Cognitive Behavioral Therapy. Is there something specific you would like to know more about regarding CBT? in chat history
+2024-11-16 11:26:36,563 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:26:36] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:29:43,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:29:47,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:29:47,352 - chat_history - INFO - Stored message my girlfriend just broke up with me and response I'm really sorry to hear that you're going through this. Breakups can be incredibly painful, and it's understandable if you're feeling a mix of emotions right now. It's important to remember that it's okay to feel whatever you're feeling—sadness, confusion, anger, or even relief at times. These feelings are all valid. Do you want to talk about how you're feeling right now or share more about what happened? I'm here to listen and support you. in chat history
+2024-11-16 11:29:47,353 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:29:47] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:30:17,517 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:30:29,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:30:29,139 - chat_history - INFO - Stored message WHAT CAN i DO and response Going through a breakup can be really tough, and it's natural to feel lost, hurt, or confused about what to do next. Here are some suggestions that might help you navigate through this challenging time:
+
+1. **Allow Yourself to Feel**: It's okay to grieve the loss of the relationship. Allow yourself to feel whatever emotions come up without judgment.
+
+2. **Reach Out for Support**: Talk to friends or family members who can offer you support. Sometimes just talking about what you're going through can be incredibly healing.
+
+3. **Engage in Self-Care**: Focus on taking care of yourself. This can include getting enough sleep, eating well, staying active, or doing activities that you enjoy and make you feel good.
+
+4. **Stay Active**: Consider engaging in physical activities like going for a walk, joining a gym, or taking a yoga class. Exercise can help reduce stress and improve your mood.
+
+5. **Find a Creative Outlet**: Expressing yourself through art, music, writing, or any other form of creativity can be a therapeutic way to process your feelings.
+
+6. **Limit Contact with Your Ex**: It might be helpful to take a break from seeing or talking to your ex to give yourself space to heal. This includes limiting checking their social media profiles.
+
+7. **Try New Activities**: This can be an opportunity to try new things or pick up new hobbies. Joining clubs or groups can also help you meet new people with similar interests.
+
+8. **Practice Mindfulness or Meditation**: These practices can help you stay grounded and cope with difficult emotions.
+
+9. **Set Small, Achievable Goals**: Give yourself something positive to focus on each day, even if it's something small. Achieving these can help boost your mood and confidence.
+
+10. **Consider Professional Support**: If you're finding it hard to cope, talking to a therapist or counselor can be very beneficial. They can provide you with strategies to manage your feelings and help you move forward.
+
+Remember, it's important to give yourself time to heal. There's no right or wrong way to cope with a breakup, and it's okay to have good days and bad days. Focus on doing what feels right for you, and know that it's okay to ask for help when you need it. in chat history
+2024-11-16 11:30:29,140 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:30:29] "POST /chat HTTP/1.1" 200 -
+2024-11-16 11:30:51,241 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 11:30:54,761 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 11:30:54,766 - chat_history - INFO - Stored message what did I just tell you and response You shared that your girlfriend just broke up with you, and you were seeking advice on what you could do in response to this situation. We discussed various strategies for coping with the emotional impact of the breakup, including allowing yourself to feel your emotions, reaching out for support, engaging in self-care, and considering professional support if needed. If there's more you'd like to talk about or explore further, I'm here to listen and help. in chat history
+2024-11-16 11:30:54,767 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 11:30:54] "POST /chat HTTP/1.1" 200 -
+2024-11-16 20:24:12,916 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 20:24:12,916 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 20:24:21,732 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-16 20:24:21,733 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:21] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-16 20:24:21,751 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:21] "GET /login HTTP/1.1" 200 -
+2024-11-16 20:24:21,773 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 20:24:24,757 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:24] "GET /register HTTP/1.1" 200 -
+2024-11-16 20:24:24,768 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 20:24:30,177 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:30] "POST /register HTTP/1.1" 200 -
+2024-11-16 20:24:30,191 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:30] "GET / HTTP/1.1" 200 -
+2024-11-16 20:24:30,211 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-16 20:24:30,215 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:24:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-16 20:25:35,562 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 20:25:35,723 - document_processor - INFO - Query: hello, Relevant texts: ['.', '.', 'g.'], Sources: ['IndividualTherapyDepression1.pdf', 'MR1198.6.pdf', 'cbt-d_manual_depression.pdf']
+2024-11-16 20:25:36,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 20:25:36,671 - chat_history - INFO - Stored message hello and response Hello! How can I assist you today? in chat history
+2024-11-16 20:25:36,672 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:25:36] "POST /chat HTTP/1.1" 200 -
+2024-11-16 20:25:55,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 20:25:56,055 - document_processor - INFO - Query: what is CBT, Relevant texts: ['Although CBT has been used for decades with mental health patients, it is now being \nimplemented more systematically (along with other evidence-based treatments) in \nVA facilities as well as other cli nics, hospitals, and practices across the country. Countless patients have ex pressed the gratitude for the opportunity to receive CBT, \nmany observing that, for the first time in their lives, they have developed strategies \nand tools for managing their mood, solving their life problems, and enhancing quality \nof life. Use of an active , structured treatment approach such as CBT allows for the \nefficient treatment of patients, which not only helps patie nts to see change in  \ntheir lives rather quickly, but also allows therapists to se e more patients because the \ncourse of treatment is time-limited. As a result, therapists and patients, alike,  \ndevelop a renewed sense of hope and optimism for treatment success.', 'Core \nbeliefs are addressed using the downward arrow technique, understanding the benefits \nand costs associated with such be liefs, and using reframing strategies to adopt more \nhelpful beliefs. CBT focuses on resolving a patient ’s current problems and aims to \nteach effective problems-solving skills. During the later phase of treatment, the CBT therapist and her patient review progress \ntoward the treatment goals established during the initial phase of treatment, \nsummarize and consolidate the skills learned during the middle phase of treatment, \nand plan for the continuation or termination of treatment. We hope this manual will be  helpful to clinicians new to CBT, as well as to those \nwho are interested in enhancing their CBT skills. Although the primary aim of this \nmanual has focused on the treatment of depression, it is our expectation that the core \nCBT competencies described in this manual can be adapted and applied to treat other \nmental health and behavioral health conditions.', ', 1989), that it is equally as effica cious as psychotropic medications in the short \nterm, and that it is more efficacious than psychotropic medications in the long term \n(see Hollon, Stewart, & Strunk, 2006, for a review). There is a great deal of research \nsupporting CBT’s efficacy for treating an array of mental disorders using both \nindividual (Butler, Chapman, Forman, & Beck, 2006) and group (Craigie & Nathan, \n2009) formats. Organization of This Manual \nThis manual is organized into five main parts: (a) cognitive behavioral theory  and the \nmanner in which the theory translates to treatment, (b) CBT session structure , (c) \ninterventions that take place in the initial phase of treatment, (d) interventions that \ntake place in the middle phase of treatment, and (e) interventions that take place in the \nlater phase of treatment.'], Sources: ['cbt-d_manual_depression.pdf', 'cbt-d_manual_depression.pdf', 'cbt-d_manual_depression.pdf']
+2024-11-16 20:26:09,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 20:26:09,474 - chat_history - INFO - Stored message what is CBT and response Cognitive Behavioral Therapy (CBT) is a form of psychotherapy that emphasizes the important role of thinking in how we feel and what we do. It's based on the concept that our thoughts, feelings, and behaviors are interconnected, and that changing negative thought patterns can lead to changes in feelings and behaviors. CBT is a structured, time-limited, and goal-oriented therapeutic approach that aims to solve problems and teach individuals skills to improve their mental health.
+
+CBT involves several key components:
+1. **Identification of Negative or Inaccurate Thinking**: Learning to recognize one's distortions in thinking that are creating problems, and then to reevaluate them in light of reality.
+2. **Gaining a Better Understanding of the Behavior and Motivation of Others**: CBT can help people understand the behavior and motivation of others which can aid in developing healthier ways of interacting with them.
+3. **Using Problem-solving Skills to Cope with Difficult Situations**: Learning strategies to cope with stressful situations or to confront emotional challenges.
+4. **Developing Greater Confidence in One’s Own Abilities**: This includes increasing self-esteem by building on personal strengths.
+
+CBT has been shown to be effective for a wide range of mental health issues, including depression, anxiety disorders, phobias, PTSD (Post-Traumatic Stress Disorder), eating disorders, substance abuse, and many others. It can be delivered in individual sessions with a therapist, in group settings, through self-help books or online programs.
+
+One of the strengths of CBT is its focus on equipping individuals with practical skills to manage current and future challenges, promoting resilience and self-efficacy. Therapy sessions often involve homework assignments to practice these skills in real-life situations.
+
+CBT is evidence-based, meaning it has been clinically proven to be effective in treating a variety of conditions. It's often considered a benchmark against which other psychotherapeutic techniques are measured. in chat history
+2024-11-16 20:26:09,476 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:26:09] "POST /chat HTTP/1.1" 200 -
+2024-11-16 20:27:23,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 20:27:24,202 - document_processor - INFO - Query: I am feeling depressed today, Relevant texts: ['I felt that I could not shake off the blues \neven with help from my family or friends. 0 1 2 3 \n4. I felt that I was just as good as other \npeople. 3 2 1 0 \n5. I had trouble keeping my mind on what I \nwas doing. 0 1 2 3 \n6. I felt depressed. 0 1 2 3 \n7. I felt that everything I did was an effort. 0 1 2 3 \n8. I felt hopeful about the future. 3 2 1 0 \n9. I thought my life had been a failure. 0 1 2 3 \n10. I felt fearful. 0 1 2 3 \n11. My sleep was restless. 0 1 2 3 \n12. I was happy. 3 2 1 0 \n13. I talked less than usual. 0 1 2 3 \n14. I felt lonely. 0 1 2 3 \n15. People were unfriendly. 0 1 2 3 \n16. I enjoyed life. 3 2 1 0 \n17. I had crying spells. 0 1 2 3 \n18. I felt sad. 0 1 2 3 \n19. I felt that people disliked me. 0 1 2 3 \n20. I could not get "going.', 'I felt that I could not shake off the blues \neven with help from my family or friends. 0 1 2 3 \n4. I felt that I was just as good as other \npeople. 3 2 1 0 \n5. I had trouble keeping my mind on what I \nwas doing. 0 1 2 3 \n6. I felt depressed. 0 1 2 3 \n7. I felt that everything I did was an effort. 0 1 2 3 \n8. I felt hopeful about the future. 3 2 1 0 \n9. I thought my life had been a failure. 0 1 2 3 \n10. I felt fearful. 0 1 2 3 \n11. My sleep was restless. 0 1 2 3 \n12. I was happy. 3 2 1 0 \n13. I talked less than usual. 0 1 2 3 \n14. I felt lonely. 0 1 2 3 \n15. People were unfriendly. 0 1 2 3 \n16. I enjoyed life. 3 2 1 0 \n17. I had crying spells. 0 1 2 3 \n18. I felt sad. 0 1 2 3 \n19. I felt that people disliked me. 0 1 2 3 \n20. I could not get "going.', 'My partner seems very upset today, maybe I \ndid something wrong. Mind reading + blaming oneself \n4. I can’t work. I am useless. Negative filter (ignoring the positive), blaming \noneself. 5. I can’t believe I don’t  know the answer. I \nmust be stupid. Labeling \n6. If I can’t get this job then everything’s lost. I might as well give up. Overgeneralization \n7. Yes, I came to group today, but it’s no big \ndeal. Not giving oneself credit \n8. I did not get the answer first. My team \nmembers must be mad at me. Mind reading \n9. If we lose it will be all my fault. Blaming oneself (possibly ignoring the \npositive) \n10. Why bother talking to the doctor, he/she \nprobably can’t help me. Pessimism \n11. Yeah I can feel better if I take a walk \noutside, but it’s not permanent. Negative filter (ignoring the positive) + all or \nnothing thinking \n12. I can’t tell others how I feel because they \nwill think I am crazy. Mind reading \n13. I can’t believe my friend did what she did.'], Sources: ['cbt-instructor-manual.pdf', 'cbt-instructor-manual.pdf', 'cbt-instructor-manual.pdf']
+2024-11-16 20:27:27,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 20:27:27,970 - chat_history - INFO - Stored message I am feeling depressed today and response I'm really sorry to hear that you're feeling this way today. It's important to acknowledge how you're feeling and to know that it's okay to have these kinds of days. Do you feel comfortable sharing a bit more about what's been going on or what might have triggered these feelings? Remember, I'm here to listen and support you. in chat history
+2024-11-16 20:27:27,971 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:27:27] "POST /chat HTTP/1.1" 200 -
+2024-11-16 20:27:58,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 20:27:58,726 - document_processor - INFO - Query: my girlfriend just broke up with me, Relevant texts: ['I’m \nnever going to be able to study or work at what I want. C I felt sad, frustrated and mad. D I still have the chance to find opportunities to pull up my grades, such as doing extra \ncredit work or finding a tutor. I might have to repeat the class during the summer, but it \ndoesn’t mean I won’t graduate, or be able to do what I want. I’m smart and there are \nsome classes that are harder for me than others. Example: \n \nA My boyfriend dumped me. B I’m ugly, I did something wrong, I should have done everything he wanted me to. No \nother guy will ever like me. C I felt awful and I cried a lot. I locked myself in my room. D It’s better that I be with someone who loves and appreciates me. The relationship with \nhim didn’t work, but it’s not necessarily something I did or didn’t do. I can be \nattractive to other guys. 2. EXCERCISES WITH THE ABCD METHOD \n \n\uf0a7 When you feel depressed ask yourself what you’re thinking. Then try to talk back to the \nthought that’s bothering you.', 'This was Kate’s first boyfriend, and she was thrilled to finally engage in \nsome of the same social activities as her peers. He had a strong personality, and she \nusually “followed his lead” in social circumstances. Although Kate was planning on \nattending college after high school, Kevin strongly encouraged her to get a job so they \ncould move in together and start their life. She acquiesced and began working as a \nwaitress. Approximately six months later, she learned that Kevin was cheating on her \nwhile she worked evening hours. She described herself as being so “mortified” about \nthis betrayal that she joined the military to get away from him as fast as she could. When she returned home on leave a year later, Kevin claimed he had made a big \nmistake and begged her to marry him. They were married four months later.', 'Therapist: Why don’t I supply you with some choices for the remainder of the \nagenda for today’s session, and you can tell me what is most important \nto you from this list. Michael: I guess so. Therapist: OK, when we first started treatment, you had mentioned problems in \nmany areas of your life. One [holds up one finger] was that your \nrelationship with your girlfriend is strained. Two [holds up two \nfingers], you’re also having trouble deciding on a direction for your \nlife career-wise, such as deciding  whether you will finish school and \nwhat you should do after that. And finally, three [holds up three \nfingers], you were concerned about the results from \nneuropsychological testing, saying that you had mild brain injury. Of \nthose three things, has anything happened in the past week that would \nindicate that we should focus on it in today’s session?\nMichael: I don’t know…I guess the thing with my girlfriend. We’ve had a lot of \nfights this week.'], Sources: ['CBT_adolescents_individual_manual_eng.pdf', 'cbt-d_manual_depression.pdf', 'cbt-d_manual_depression.pdf']
+2024-11-16 20:28:01,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 20:28:01,879 - chat_history - INFO - Stored message my girlfriend just broke up with me and response I'm really sorry to hear that. Breakups can be incredibly painful and difficult to navigate. It's normal to feel a mix of emotions, such as sadness, confusion, anger, or even relief, during this time. Whatever you're feeling, it's valid and okay. Would you like to talk about how you're feeling right now, or would it help to explore some ways to cope with this change? I'm here to listen and support you through this. in chat history
+2024-11-16 20:28:01,880 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:28:01] "POST /chat HTTP/1.1" 200 -
+2024-11-16 20:28:37,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 20:28:37,942 - document_processor - INFO - Query: what did i just say, Relevant texts: ['g.', 'We all just knew than anything less than #1 \nwas unacceptable to him. Therapist: Can you remember a spec ific example when you took this message \nfrom him?\nClaire: [pauses] I remember a time when I was six years old and on a \nbeginning soccer team. You know, one of those teams when the kids \ndon’t know what they a re doing, and they all run around in swarms \nchasing the ball?\nTherapist: What happened?\nClaire: I was the goalie, but I didn’t really understand fully what a goalie did. So when I saw all of the kids on my team chasing the ball, I went after \nit, too. Therapist: And then what happened?\nClaire: I wasn’t tending the goal, so the other team scored. When the half \nended, I went to my parents to get a drink of water from the cooler \nthey bought. And my father ripped into me. Therapist: [gently] What did he say?\nClaire: [with disdain] I remember him saying that I have no business being the \ngoalie if I can’t do my job right.', '.'], Sources: ['cbt-d_manual_depression.pdf', 'cbt-d_manual_depression.pdf', 'MR1198.6.pdf']
+2024-11-16 20:28:39,867 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 20:28:39,870 - chat_history - INFO - Stored message what did i just say and response You mentioned that your girlfriend just broke up with you. This can be a very challenging and emotional time. If you feel comfortable sharing more about how you're feeling or if you're looking for specific ways to cope with the breakup, I'm here to listen and support you. in chat history
+2024-11-16 20:28:39,871 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 20:28:39] "POST /chat HTTP/1.1" 200 -
+2024-11-16 21:09:23,907 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-16 21:09:24,286 - document_processor - INFO - Query: give me a summary of this session, Relevant texts: ['Feedback and Preview \n \nThe general outline for a session is presented above. As mentioned in the termination \nsection, the first session and last session of each module typically also include information \nregarding welcoming and orienting new group members and saying goodbye to group members \nwho are graduating. Each of the primary areas covered in a session are detailed below. I. AGENDA AND ANNOUNCEMENTS \nAt the beginning of each session, group leaders typically present an agenda for that session on \nthe board. As part of this agenda, it is important to include concerns/problems that are specific \nto the individual members. The group leaders begin each session with announcements (e. g. phone calls from missing group \nmembers, changes in schedule due to holidays). The group leaders also elicit from group \nmembers, announcements about having to leave early, anticipated absences, and so on. [sample statement] \nToday we will cover (main topic of module).', '____________________ \n \n \n \n__________________ \n \n \n \n__________________ \n \n \n \n____________________________________ \n \n \n \n________________________________________ \n \n \n \n \n____________________ \n \n \n \n \n__________________ \n \n \n \n \n__________________ \n \n \n \n \n____________________________________ \n \n \n \n \n________________________________________ \n \n \n \n \n____________________ \n \n \n \n \n__________________ \n \n \n \n \n__________________ \n \n \n \n \n____________________________________ \n \n \n \n \n________________________________________ \n \n \n \n \n____________________ \n \n \n \n \n__________________ \n \n \n \n \n__________________ \n \n \n \n \n____________________________________ \n \n \n \n \n________________________________________ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n   \nThoughts and Your Mood, Session 4    \n   67 \n \n  FEEDBACK \n \nThe provider will ask for your comments about how the session went.', 'For example, patients who are \nbecoming increasingly agitated a nd unfocused while discussing an agenda item \nbenefit from periodic summaries that slow down the pace  of the session \nand hone in on the main points of  the issue. Moreover, periodic \nsummaries allow the therapist and patient an opportunity to revisit the \nagenda and make modifications to exist ing agenda items as necessary. At other times, the therapist may feel “stuck” in determining the next \nstep to take or may find that the patie nt is responding negatively to all\nof the therapist’s interventions. In such instances, pe riodic summaries allow for time \nfor both the patient and therapist to reflect on the problem and may facilitate \nengagement in the therapeutic process. As Dr. Aaron Beck has said numerous times \nwhen training therapists, “When you feel ‘stuck,’ then do a summary. ”\nWe caution therapists to resist making statements of interpretation during periodic \nsummaries.'], Sources: ['cbt-instructor-manual.pdf', 'CBT-Client-English.pdf', 'cbt-d_manual_depression.pdf']
+2024-11-16 21:09:33,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 21:09:33,142 - chat_history - INFO - Stored message give me a summary of this session and response During our session today, we initially set an agenda, which helped to outline the topics and issues we planned to address. This included making space for any personal concerns or problems you wanted to bring up. We began with some announcements, including any schedule changes and notes about attendance, to ensure everyone was informed and comfortable with the session's structure.
+
+The main focus of our discussion revolved around how you're coping with the recent breakup with your girlfriend. We explored the range of emotions you're experiencing, acknowledging that it's natural and okay to feel a mix of sadness, confusion, anger, and possibly even relief. I encouraged you to share your feelings and thoughts about the breakup, aiming to provide a supportive space where you could express yourself openly.
+
+We also discussed several coping strategies to help you navigate through this challenging time. These included allowing yourself to grieve, reaching out for support from friends or family, engaging in self-care activities, staying active, finding creative outlets for your emotions, limiting contact with your ex, trying new activities, practicing mindfulness or meditation, setting small achievable goals, and considering professional support if the feelings become overwhelming.
+
+Throughout the session, I aimed to listen actively and reflect understanding, validate your feelings, and suggest healthy coping strategies. Our goal was to help you identify patterns in your thoughts and feelings related to the breakup and encourage you to take steps towards healing.
+
+As we concluded, I asked for your feedback on the session to ensure it met your needs and to see if there were any adjustments or additional topics you wished to cover in future sessions. This reflective practice is intended to enhance your therapeutic experience, ensuring that the sessions remain focused, relevant, and supportive of your journey towards healing and growth. in chat history
+2024-11-16 21:09:33,143 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 21:09:33] "POST /chat HTTP/1.1" 200 -
+2024-11-17 16:23:27,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-17 16:23:28,231 - document_processor - INFO - Query: what did we talk about in the last conversation, Relevant texts: ['I also \nunderstand that dealing with a job loss and family problems can be \nvery difficult, and I hope that we can put our heads together and figure \nout ways to improve things for you. Jack: [pause] OK. I appreciate that. Therapist: Is there anything else that  we talked about during the last session that \nwas important? \nJack: Not really…just the problems that I’m having in managing my \ndiabetes. Therapist: Yes, and that you were having some concerns about sticking to the diet \nthat your doctor had recommended. Jack: Yeah, but it’s been less of an issue for me this week. Therapist: That’s good. So n ow that we have covere d the most important issues \nfrom the last session, I thought we  could talk about the homework \nfrom last week and set an agenda for today’s session. Would that be \nOK? \nJack: Sure.', 'Then, we can spend the \nmajority of our time on your diffic ulties resuming contact with your \nchildren. After that, we can spend  the last part of the session talking \nabout the financial problems. At the end of session, we can review \nwhat we’ve accomplished, set a new homework assignment if we \nhaven’t already done so, and get feedback on the session. How does \nthat sound to you?\nKate: That sounds fine. The identification of issues to be discussed in therapy should be something that the \npatient thinks about during the period betw een sessions. When patients come \nprepared for each session, agenda sett ing proceeds smoothly and in a straightforward \nmanner, allowing for maximal time to engage in the therapeutic process. Thinking \nabout agenda items in between sessions a lso keeps patients focused on growth in \nbetween sessions, maximizing the potential for change.', 'Did any questions come up? \n \nIV. NEW MATERIAL \nBRIDGE: Introduce this week’s material, linking it to material taught in previous \nsessions. [sample bridge]  COGNITIVE-BEHAVIORAL TREATMENT FOR DEPRESSION \nPart II: Lecture Notes for Instructors: People 3 \nVersion 2000: May, 2000 \n 113 \nLast week we talked about how our interpersonal relationship problems can affect how \nwe feel, think, behave, and interact with others. Today we will continue talking about \nthis, and we will talk about how we can make changes in our interpersonal relationships. Last week, we also talked about active listening, an important communication skill. Today, we will talk about another important communication skill called assertiveness. 1.'], Sources: ['cbt-d_manual_depression.pdf', 'cbt-d_manual_depression.pdf', 'cbt-instructor-manual.pdf']
+2024-11-17 16:23:33,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-17 16:23:33,020 - chat_history - INFO - Stored message what did we talk about in the last conversation and response In our last conversation, we discussed your recent breakup with your girlfriend and how you're coping with the situation. You shared that you're going through a tough time, and we talked about various strategies to help you navigate through this challenging period. These strategies included allowing yourself to feel and express your emotions, reaching out for support from friends or family, engaging in self-care activities, staying physically active, finding creative outlets for your emotions, limiting contact with your ex, trying new activities, practicing mindfulness or meditation, setting small achievable goals, and considering professional support if needed. 
+
+We aimed to provide a supportive space for you to express your feelings and thoughts, validate your emotions, and suggest healthy coping mechanisms. If there's more you'd like to explore or discuss further, please feel free to share. in chat history
+2024-11-17 16:23:33,021 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:23:33] "POST /chat HTTP/1.1" 200 -
+2024-11-17 16:30:29,393 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 16:30:29,394 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 16:30:30,077 - document_processor - INFO - Documents already loaded in Pinecone
+2024-11-17 16:30:30,078 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:30] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-17 16:30:30,087 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:30] "GET /login HTTP/1.1" 200 -
+2024-11-17 16:30:30,108 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-17 16:30:31,705 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:31] "GET /register HTTP/1.1" 200 -
+2024-11-17 16:30:31,718 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-17 16:30:35,752 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:35] "POST /register HTTP/1.1" 200 -
+2024-11-17 16:30:35,765 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:35] "GET / HTTP/1.1" 200 -
+2024-11-17 16:30:35,781 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-17 16:30:35,785 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-17 16:30:38,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-17 16:30:38,152 - document_processor - INFO - Query: 231, Relevant texts: ['. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 164 \nCognitive Conceptualization Diagram. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 171 \nFeelings Handout. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 173 \nHomework Assignment Form. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175 \nPleasant Events Schedule (revised). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177 \nRelaxation Log. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 190 \nReviewing CBT Sessions Form. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192 \nThree-Column Thought Record. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .', '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 124 \nCore Belief Identification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 124 \nCore Belief Modification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126 \nProblem-Solving Strategies. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134 \nEvaluating Pros and Cons. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 140 \nPART V: LATER PHASE OF TREATMENT. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 143 \nReviewing Progress Toward Treatment Goals. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 143 \nReview and Consolidation of Skills. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 144 \nAdditional Treatment Planning. . . . . . . . . . . . . . . . . .', '.'], Sources: ['cbt-d_manual_depression.pdf', 'cbt-d_manual_depression.pdf', 'MR1198.6.pdf']
+2024-11-17 16:30:40,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-17 16:30:40,737 - chat_history - INFO - Stored message 231 and response It seems like you've shared a number, "231," without any context. Could you please provide more information or let me know how I can assist you? If there's something specific on your mind or a particular topic you'd like to discuss, I'm here to listen and support you. in chat history
+2024-11-17 16:30:40,738 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:40] "POST /chat HTTP/1.1" 200 -
+2024-11-17 16:30:54,145 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-11-17 16:30:54,150 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:54] "GET /login HTTP/1.1" 200 -
+2024-11-17 16:30:54,161 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-17 16:30:58,580 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:30:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-17 16:31:01,232 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-17 16:31:03,058 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:03] "GET /register HTTP/1.1" 200 -
+2024-11-17 16:31:03,077 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-17 16:31:09,182 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:09] "POST /register HTTP/1.1" 200 -
+2024-11-17 16:31:09,192 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:09] "GET / HTTP/1.1" 200 -
+2024-11-17 16:31:09,209 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-17 16:31:09,218 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-17 16:31:10,299 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-11-17 16:31:10,302 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:10] "GET /login HTTP/1.1" 200 -
+2024-11-17 16:31:10,313 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-17 16:31:14,201 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 16:31:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
